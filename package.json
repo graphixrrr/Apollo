@@ -10,6 +10,10 @@
     "lint": "next lint",
     "scrape": "tsx scripts/scraper.ts",
     "test": "tsx scripts/test-scraper.ts",
+    "quick-test": "tsx scripts/quick-test.ts",
+    "find-yc-ceo": "tsx scripts/find-yc-ceo.ts",
+    "find-yc-founder": "tsx scripts/find-yc-founder.ts",
+    "find-real-contacts": "tsx scripts/find-real-contacts.ts",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:studio": "prisma studio"
